@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="algorithms\bfs\BFS.cpp" />
+    <ClCompile Include="algorithms\bi_bfs\BiDirectionalBFS.cpp" />
+    <ClCompile Include="algorithms\dfs\DFS.cpp" />
+    <ClCompile Include="algorithms\SearchingMethod.cpp" />
+    <ClCompile Include="cell\cell_container\CellContainer.cpp" />
+    <ClCompile Include="cell\cell_group\CellGroup.cpp" />
+    <ClCompile Include="cell\cell_priority_queue\CellPriorityQueue.cpp" />
+    <ClCompile Include="cell\Cell.cpp" />
+    <ClCompile Include="maze\Maze.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="cell\cell_comparator\CellComparator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glut.h" />
+    <ClInclude Include="algorithms\bfs\BFS.h" />
+    <ClInclude Include="algorithms\bi_bfs\BiDirectionalBFS.h" />
+    <ClInclude Include="algorithms\dfs\DFS.h" />
+    <ClInclude Include="algorithms\SearchingMethod.h" />
+    <ClInclude Include="cell\cell_container\CellContainer.h" />
+    <ClInclude Include="cell\cell_group\CellGroup.h" />
+    <ClInclude Include="cell\cell_priority_queue\CellPriorityQueue.h" />
+    <ClInclude Include="cell\Cell.h" />
+    <ClInclude Include="maze\Maze.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="cell\cell_comparator\CellComparator.h" />
+  </ItemGroup>
+</Project>
